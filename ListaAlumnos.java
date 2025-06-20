@@ -1,6 +1,13 @@
+/**
+ * Clase principal que ejecuta la aplicación de gestión de alumnos de una asignatura.
+ */
 import java.util.ArrayList;
 
 public class ListaAlumnos {
+    /**
+     * Método principal. Da de alta varios alumnos, muestra el listado y la nota media del grupo.
+     * @param args Argumentos de línea de comandos (no se usan)
+     */
     public static void main(String[] args) {
         Asignatura asignatura = new Asignatura();
         asignatura.altaAlumno("Ana", 8.5, 7.0, 9.0);
